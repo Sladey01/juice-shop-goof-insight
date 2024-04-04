@@ -2,9 +2,9 @@ import requests
 from argparse import ArgumentParser
 
 parser = ArgumentParser()
-parser.add_argument("--org-id", dest="org_id", help="your Snyk Org ID", required=True)
-parser.add_argument("--snyk-token", dest="snyk_token", help="your Snyk Token", required=True)
-parser.add_argument("--origin", dest="origin", help="SCM type. Possible values: github, github-enterprise, azure-repos, bitbucket, gitlab", required=True)
+parser.add_argument("--org-id", dest="3b3472fd-bf81-4533-b2fd-0ae2e2a22020", help="your Snyk Org ID", required=True)
+parser.add_argument("--snyk-token", dest="3043ef24-9a55-430a-a11b-11511f5cd108", help="your Snyk Token", required=True)
+parser.add_argument("--origin", dest="github", help="SCM type. Possible values: github, github-enterprise, azure-repos, bitbucket, gitlab", required=True)
 
 args = parser.parse_args()
 
